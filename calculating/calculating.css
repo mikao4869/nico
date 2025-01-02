@@ -1,0 +1,32 @@
+.Hap{
+  width: 800px;
+  height: 500px;
+  background-color: #f7e600;
+  position: absolute;
+  left:400px;
+}
+.number1{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #fff;
+}
+.number2{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #fff;
+
+}
+.number3{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #fff;
+
+}
+.Text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
