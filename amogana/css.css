@@ -1,0 +1,77 @@
+#number1 {
+  height: 50px;
+  width: 50px;
+  background-color: aqua;
+}
+#number2 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(64, 236, 58);
+}
+#number3 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(204, 122, 181);
+}
+#number4 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(208, 229, 43);
+}
+#number5 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(186, 114, 46);
+}
+#number6 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(151, 43, 191);
+}
+#number7 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(162, 42, 86);
+}
+#number8 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(94, 114, 30);
+}
+#number9 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(140, 183, 183);
+}
+
+#buho1 {
+  width: 100px;
+  height: 20px;
+  background-color: aquamarine;
+  margin-bottom: 30px;
+}
+#buho2 {
+  width: 100px;
+  height: 20px;
+  background-color: aquamarine;
+  margin-bottom: 30px;
+}
+#buho3 {
+  width: 100px;
+  height: 20px;
+  background-color: aquamarine;
+  margin-bottom: 30px;
+}
+#buho4 {
+  width: 100px;
+  height: 20px;
+  background-color: aquamarine;
+  margin-top: 30px;
+}
+#result {
+  margin-left: 420px;
+
+  width: 100px;
+  height: 50px;
+  background-color: brown;
+}

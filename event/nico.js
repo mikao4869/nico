@@ -1,2 +1,9 @@
-const title = document.querySelector('.hello h1');
-title.innerText = 'hello';
+const loginInput = document.querySelector('#login-form input');
+const loginButton = document.querySelector('#login-form button');
+
+function onLoginclick() {
+  const username = loginInput.value;
+  console.log(username);
+}
+
+loginButton.addEventListener('click', onLoginclick);

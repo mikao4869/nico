@@ -1,0 +1,1 @@
+### getElementByid: string을 전달받는 함수이다.
