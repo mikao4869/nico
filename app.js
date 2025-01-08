@@ -10,14 +10,13 @@ function onLoginSubmit(event)
 {
 event.preventDefault();
 console.log(loginInput.value);
-const username=loginInput.value;
 loginForm.classList.add(HIDDEN_CLASSNAME);
-console.log(username);
-greeting.innerText="Hello"+username;
+const username=loginInput.value;
+localStorage.setItem("username",username);
+
 greeting.innerText=`Hello ${username}`;
 
 greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
 loginForm.addEventListener("submit",onLoginSubmit);
-Link.addEventListener("click",handleLinkClick)
