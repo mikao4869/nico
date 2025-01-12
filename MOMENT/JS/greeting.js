@@ -10,12 +10,12 @@ const USERNAME_KEY="username";
 function onLoginSubmit(event){
   event.preventDefault();
   loginForm.classList.add(HIDDEN_CLASSNAME);
+  const username=loginInput.value;
   localStorage.setItem(USERNAME_KEY,username);
-  paintGreetings();
+  paintGreetings(username);
 }
 
-function paintGreetings(){
-  const username=localStorage.getItem(USERNAME_KEY);
+function paintGreetings(username){
   greeting.innerText=`Hello ${username}`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 
@@ -29,5 +29,5 @@ if(savedUsername===null){ //만약에 username 없다면 form을 작성할수 �
   loginForm.addEventListener("submit",onLoginSubmit);
 }
 else{
-  paintGreetings();
+  paintGreetings(savedUsername);
 }
