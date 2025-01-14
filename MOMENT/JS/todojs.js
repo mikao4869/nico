@@ -13,9 +13,11 @@ function saveToDos() {
 function deleteToDo(event) {
   const li = event.target.parentElement;
   li.remove();
+  toDos=toDos.filter(toDo=>toDo.id!==parseInt(li.id));
+  saveToDos();
 }
 
-function paintToDo(newTodo) {
+function paintToDo(newTodo) {//작성하는거
   const li = document.createElement("li");
   li.id=newTodo.id;
   const span = document.createElement("span");
@@ -37,7 +39,7 @@ function handleToDoSubmit(event) {
     id:Date.now(),
   }
   toDos.push(newTodoObj);
-  paintToDo(newTodo);
+  paintToDo(newTodoObj);
   saveToDos();
 }
 
