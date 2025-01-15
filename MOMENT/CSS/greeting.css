@@ -1,3 +1,36 @@
 .hidden{
   display: none;
 }
+
+.LoginNameinput{
+  width: 300px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(233, 233, 233);
+}
+.LoginNameButton{
+  width: 70px;
+  height: 40px;
+  border: 0;
+  border-radius: 15px;
+  background-color:#0080ff;
+  cursor: pointer;
+}
+
+.Background{
+  z-index: -1;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 800px;
+}
+
+.Clock{
+position: relative;
+margin-left:200px;    
+
+}
