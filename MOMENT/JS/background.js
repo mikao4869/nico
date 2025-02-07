@@ -1,4 +1,4 @@
-const images = ["a.jpg", "b.jpg", "c.jpg"];
+const images = ["green.jpg", "red.jpg", "white.jpg"];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
@@ -6,6 +6,4 @@ const bgImage = document.createElement("img");
 bgImage.src = `img/${chosenImage}`;
 
 document.body.appendChild(bgImage);
-
-console.log(`Selected image: ${chosenImage}`);
-console.log(`Image path: img/${chosenImage}`);
+bgImage.classList.add("img"); 
