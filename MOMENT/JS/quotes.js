@@ -1,16 +1,16 @@
 const quotes = [
   {
-    quote: "The way to get started is to quit talking and begin doing.",
-    author: "Walt Disney",
+    quote: "어우춥다",
+    author: "박서현",
   },
   {
-    quote: "Life is what happens when you're busy making other plans.",
-    author: "John Lennon",
+    quote: "다른사람을 의식하지 마라. 그들은 너의 경쟁자가 아니다",
+    author: "박서현",
   },
   {
     quote:
-      "The world is a book and those who do not travel read only one page.",
-    author: "Saint Augustine",
+      "배고파.",
+    author: "박서현",
   },
   {
     quote: "Life is either a daring adventure or nothing at all.",

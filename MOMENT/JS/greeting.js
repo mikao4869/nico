@@ -8,7 +8,7 @@ const HIDDEN_CLASSNAME="hidden";
 const USERNAME_KEY="username";
 
 function onLoginSubmit(event){
-  event.preventDefault();
+  event.preventDefault( );
   loginForm.classList.add(HIDDEN_CLASSNAME);
   const username=loginInput.value;
   localStorage.setItem(USERNAME_KEY,username);
@@ -24,10 +24,13 @@ function paintGreetings(username){
 
 const savedUsername=localStorage.getItem(USERNAME_KEY);
 
-if(savedUsername===null){ //만약에 username 없다면 form을 작성할수 있게 보여주라
-  loginForm.classList.remove(HIDDEN_CLASSNAME);
-  loginForm.addEventListener("submit",onLoginSubmit);
+if(savedUsername === null){ 
+  loginForm.classList.remove("hidden");  // 숨김 해제
+  loginInput.focus();  // 자동 포커스
+  loginForm.addEventListener("submit", onLoginSubmit);
 }
+
+
 else{
   paintGreetings(savedUsername);
 }
