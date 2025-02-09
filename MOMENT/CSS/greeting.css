@@ -76,16 +76,16 @@ z-index: 2;
 
 
 .LoginInput{
-  width: 500px;
-  height: 32px;
-  font-size: 15px;
-  border: 0;
-  border-radius: 15px;
-  outline: none;
-  padding-left: 10px;
-  background-color: rgb(233, 233, 233);
-  margin-left: 500px;
-  margin-top: 120px;  
+width: 500px;
+height: 32px;
+font-size: 15px;
+border: 0;
+border-radius: 15px;
+outline: none;
+padding-left: 10px;
+background-color: rgb(233, 233, 233);
+margin-left: 500px;
+margin-top: 120px;  
 }
 
 .LoginButton{
@@ -98,16 +98,16 @@ border-radius: 20px;
 }
 
 .TodoInput{
-    width: 500px;
-    height: 32px;
-    font-size: 15px;
-    border: 0;
-    border-radius: 15px;
-    outline: none;
-    padding-left: 10px;
-    background-color: rgb(233, 233, 233);
-    margin-left: 500px;
-    margin-top:  20px;  
+width: 500px;
+height: 32px;
+font-size: 15px;
+border: 0;
+border-radius: 15px;
+outline: none;
+padding-left: 10px;
+background-color: rgb(233, 233, 233);
+margin-left: 500px;
+margin-top:  20px;  
 }
 
 
@@ -124,7 +124,7 @@ border-radius: 20px;
   color: #fff;
   position: relative;
   left:1200px;
-  top:-220px;
+  top:-254px;
 }
 
 @font-face {
@@ -132,4 +132,74 @@ border-radius: 20px;
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+.Quote{
+font-family: 'Paperlogy-8ExtraBold';
+font-weight: 500;
+font-size: medium;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+
+@font-face {
+  font-family: 'Paperlogy-8ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+.Author{
+  font-family: 'Gyeonggi_Batang_Regular';
+  font-weight: 500;
+  font-size: medium;
+  color: #fff;
+  position: relative;
+  margin-left:900px;
+}
+
+@font-face {
+  font-family: 'Gyeonggi_Batang_Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Batang_Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.white-text{
+  width: 170px;
+  height: 50px;
+  color:#fff;
+  position: relative;
+  text-align: center;
+  bottom:-30px;
+  left: 290px;
+  border-radius: 25px; 
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.todo-item {
+  position: relative;
+  left:500px;
+  width: 100px; /* 텍스트 길이에 맞게 자동 조절 */
+  min-width: 120px; /* 최소한의 가로 길이 설정 */
+  padding: 10px 15px; /* 좌우 여백 추가 */
+  margin: 5px 0;
+  border-radius: 25px; 
+  color: white;
+  display: flex;
+  justify-content: space-between; /* 텍스트와 버튼을 양 끝으로 정렬 */
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* 배경 추가 */
+  white-space: nowrap; /* 텍스트 줄바꿈 방지 */
+}
+
+.NoButton{
+  width: 40px;
+  height: 30px;
+  outline: none;
+  background-color: #fff;
+  border-radius: 20px;
 }

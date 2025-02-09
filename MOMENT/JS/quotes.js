@@ -1,16 +1,16 @@
 const quotes = [
   {
-    quote: "어우춥다",
-    author: "박서현",
+    quote: "Memento mori",
+    author: "aisle Revelt",
   },
   {
-    quote: "다른사람을 의식하지 마라. 그들은 너의 경쟁자가 아니다",
-    author: "박서현",
+    quote: "The only thing I know is that I know nothing.",
+    author: "Socrates",
   },
   {
     quote:
-      "배고파.",
-    author: "박서현",
+      "Do what you can, with what you have, where you are.",
+    author: "Theodore Roosevelt",
   },
   {
     quote: "Life is either a daring adventure or nothing at all.",

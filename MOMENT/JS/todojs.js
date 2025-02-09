@@ -17,19 +17,20 @@ function deleteToDo(event) {
   saveToDos();
 }
 
-function paintToDo(newTodo) {//작성하는거
+function paintToDo(newTodo) {
   const li = document.createElement("li");
-  li.id=newTodo.id;
+  li.id = newTodo.id;
+  li.classList.add("todo-item"); // 추가
   const span = document.createElement("span");
   span.innerText = newTodo.text;
   const button = document.createElement("button");
   button.innerText = "❌";
+  button.classList.add("NoButton");
   button.addEventListener("click", deleteToDo);
   li.appendChild(span);
   li.appendChild(button);
   toDoList.appendChild(li);
 }
-
 function handleToDoSubmit(event) {
   event.preventDefault();
   const newTodo = toDoInput.value;
